@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <title>CyberJungle</title>
+    <link rel="stylesheet" href="/src/css/output.css">
+    <link rel="stylesheet" href="/src/css/scroll.css">
+
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- end -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
+        @import url('https://db.onlinewebfonts.com/c/7570c1afbd218d00e6f6af9678be7c93?family=Broken+Detroit+V1');
+    </style>
+
+    
+</head>
+<body class="overflow-x-hidden">
+    <script>
+        AOS.init();
+    </script>
+
+    <header class="flex justify-center items-center gap-2 px-3 py-3 bg-dark
+    md:gap-md lg:gap-lg">
+        <div class="text-mobile font-head text-white md:text-md lg:text-lg">
+            <a href="#character" class="c">CHARACTER</a>
+        </div>
+        <div class="text-mobile font-head text-white md:text-md lg:text-lg">
+            <a href="#histroy">HISTORY</a>
+        </div>
+        <div class="text-mobile font-head text-white md:text-md lg:text-lg">
+            <a href="#card">CARDS</a>
+        </div>
+        <div class="text-mobile font-head text-white md:text-md lg:text-lg">
+            <a href="#download">DOWNLOAD A GAME</a>
+        </div>
+    </header>
+    <section class="inline relative">
+        <img src="/assets/header-lg.png" alt="head-img" class="w-full lg:h-1/6" data-aos="fade-up" data-aos-duration="1000">
+        <div class="absolute inset-0 w-auto h-auto mx-auto my-20 text-center lg:my-96" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="1000">
+            <h3 class="text-light font-sub-text lg:text-5xl">New Era of Card Battles</h3>
+            <h1 class="text-light font-head text-2xl lg:text-lg-sub-heading lg:mt-10">CYBERJUNGLES</h1>
+        </div>
+    </section>
+    
+    <main class="bg-dark flex flex-col w-full">
+        <section class=" text-center w-auto mt-2 pt-5 px-5 md:px-20 lg:px-50">
+            <p class="text-light font-sub-text text-mobile md:text-md lg:text-lg">
+                In a world where people used cybernetics to create perfect and deadly animal-machines, a terrible event occurred. Control over some of these creations was lost, and they began attacking humans, destroying everything in their path. In this dystopia, the surviving humans formed different factions and compete with each other using their cyber beasts in a card battle. The player must choose their faction and assemble a deck of cyber animals for battle.
+            </p>
+        </section>
+
+        <section class="mx-2" id="character">
+            <div class="text-center text-sm-sub-heading font-head py-5 text-white lg:text-lg-sub-heading" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                C<span class="text-violet">H</span>ARA<span class="text-violet">C</span>TERS
+            </div>
+            <div class="grid grid-cols-1 gap-x-2 gap-y-5 md:grid-cols-2">
+                <div class="card" data-aos="fade-right" data-aos-duration="600">
+                    <div class="flex justify-center">
+                        <img src="/assets/healer.png">
+                    </div>
+                    <div>
+                        <h1 class="text-center text-sm-sub-heading font-head text-healer-card">Healer</h1>
+                        <p class="text-center text-light font-sub-text text-mobile md:text-sm lg:text-md">She can use the ability <B>"Restoration"</B> to restore the health of herself or allied creatures.</p>
+                    </div>
+                </div>
+
+                <div class="card2" data-aos="fade-right" data-aos-duration="600">
+                    <div class="flex justify-center">
+                        <img src="/assets/hunter.png">
+                    </div>
+                    <div>
+                        <h1 class="text-center text-sm-sub-heading font-head text-hunter-card">HUNTER</h1>
+                        <p class="text-center text-light font-sub-text text-mobile md:text-sm lg:text-md">He can place a <B>"Trap"</B> on the battlefield that deals damage to enemy creatures when they enter play or attack the Hunter.</p>
+                    </div>
+                </div>
+
+                <div class="card3" data-aos="fade-left" data-aos-duration="600">
+                    <div class="flex justify-center">
+                        <img src="/assets/shadow.png">
+                    </div>
+                    <div>
+                        <h1 class="text-center text-sm-sub-heading font-head text-shadow-card">SHADOW</h1>
+                        <p class="text-center text-light font-sub-text text-mobile md:text-sm lg:text-md">She can use <B>"Dark Shield"</B> which protects her from magical attacks and absorbs some of the damage received.</p>
+                    </div>
+                </div>
+
+                <div class="card4" data-aos="fade-left" data-aos-duration="600">
+                    <div class="flex justify-center">  
+                        <img src="/assets/ghost.png">
+                    </div>
+                    <div>
+                        <h1 class="text-center text-sm-sub-heading font-head text-ghost-card">GHOST</h1>
+                        <p class="text-center text-light font-sub-text text-mobile md:text-sm lg:text-md">He can use <B>"Phantom Curse"</B> to place a curse on the opponent's cards, reducing their effectiveness when they are used.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="histroy">
+            <div class="text-center text-sm-sub-heading lg:text-lg-sub-heading font-head text-light py-5" data-aos="zoom-out-up" data-aos-duration="800">
+                HI<span class="text-violet">S</span>TOR<span class="text-violet">Y</span>
+            </div>
+            <div class="flex flex-col gap-y-3 mx-3 lg:mx-10" data-aos="fade-right" data-aos-duration="500">
+                <p class="text-light font-sub-text text-mobile text-center lg:text-md">In 2060, a group of scientists began conducting secret experiments on genetically modifying animals in an underground laboratory. They used cutting-edge technologies and computer programs to create the perfect combination of animal genes and mechanics, allowing them to create unique cyber-creatures.</p>
+                <p class="text-light font-sub-text text-mobile text-center lg:text-md" data-aos="fade-left" data-aos-duration="500">
+                    Soon, the scientists began applying these technologies to more dangerous animals such as predators and reptiles in the hope of creating the perfect weapon for military purposes. However, the experiments got out of control and the animals began exhibiting extraordinary aggression and strength. They started attacking the laboratory personnel and breaking out.
+                </p>
+                <p class="text-light font-sub-text text-mobile lg:text-md" data-aos="fade-right" data-aos-duration="500">
+                    Nevertheless, the scientists were not going to stop, and they continued their experiments in an attempt to create even stronger cyber-monsters. They continued to modify the animals' genes by adding new, more powerful mechanisms, and subjecting them to more rigorous training and testing.
+                </p>
+            </div>
+        </section>
+
+        <section class="mx-2" id="card">
+            <h1 class="text-center font-head text-light text-sm-sub-heading lg:text-lg-sub-heading" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                CA<span class="text-violet">R</span>DS
+            </h1>
+            <div class="my-5 grid grid-cols-2 gap-2 gap-y-4 lg:grid-cols-4 lg:gap-y-8">
+                <div class="relative card-1 hover:drop-shadow-card transition-all duration-500" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/card-1.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-3 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-2 hover:drop-shadow-card transition-all duration-500" data-aos="fade-down" data-aos-duration="500">
+                    <img src="/assets/card-2.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-2 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-3 hover:drop-shadow-card transition-all duration-500" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/card-3.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-3 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-4 hover:drop-shadow-card transition-all duration-500" data-aos="fade-down" data-aos-duration="500">
+                    <img src="/assets/card-4.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-2 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-5 hover:drop-shadow-card transition-all duration-500" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/card-5.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-3 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-6 hover:drop-shadow-card transition-all duration-500" data-aos="fade-down" data-aos-duration="500">
+                    <img src="/assets/card-6.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-2 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-7 hover:drop-shadow-card transition-all duration-500" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/card-7.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-3 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+
+                <div class="relative card-8 hover:drop-shadow-card transition-all duration-500" data-aos="fade-down" data-aos-duration="500">
+                    <img src="/assets/card-8.png" class="w-auto h-auto">
+                    <img src="/assets/ice-8.png" class="absolute -top-3 -right-2 w-10 h-10 lg:w-16 lg:h-16">
+                    <img src="/assets/v-7.png" class="absolute -bottom-8 -left-8 w-20 h-20 lg:w-28 lg:h-28 lg:-left-10 lg:-bottom-10">
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full h-auto mt-5 relative" id="download">
+            <img src="/assets/footer.png" data-aos="fade-down" data-aos-duration="2000">
+            <div class="flex flex-col absolute top-12 w-3/6 h-fit mx-auto left-0 right-0 lg:top-80 lg:w-2/6" data-aos="zoom-out-up" data-aos-duration="500">
+                <h1 class="text-center font-sub-text text-light text-mobile lg:text-lg lg:w-auto">Fight Your Opponent in a fight for life and death</h1>
+                <button class="relative" type="button">
+                    <a href="/">
+                        <img src="/assets/btn.png">
+                    </a>
+                </button>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="h-10 bg-dark flex  justify-center items-center">
+        <div>
+            <h1 class="font-sub-text text-light">New Era of Card Battles</h1>
+        </div>
+    </footer>
+
+
+</body>
+</html>

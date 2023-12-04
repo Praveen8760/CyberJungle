@@ -1,0 +1,18 @@
+@import url(https://db.onlinewebfonts.com/c/b081d67351c063ef609c1426071eed2f?family=Broken+Detroit+V2);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+@layer base{
+    @font-face {
+        font-family: 'Broken';
+        font-style: normal;
+        font-weight: normal;
+        src: url("assets/Broken-Detroit - PERSONAL USE ONLY.woff") format('woff');     
+    }
+}
+
